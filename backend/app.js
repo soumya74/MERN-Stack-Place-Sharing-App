@@ -38,7 +38,7 @@ app.use( (error, req, res, next) => {
     res.json({message: error.message || "Unknown Error occurred"})
 })
 
-mongoose.connect('mongodb://soumya74:XvqMzPJPhPCsiGYd@meanstack-shard-00-00-jxtyb.mongodb.net:27017,meanstack-shard-00-01-jxtyb.mongodb.net:27017,meanstack-shard-00-02-jxtyb.mongodb.net:27017/mernAppDB?ssl=true&replicaSet=MeanStack-shard-0&authSource=admin&retryWrites=true&w=majority', options)
+mongoose.connect('mongodb://abcdefgh:XvqMzPJPhPCsiGYd@meanstack-shard-00-00-jxtyb.mongodb.net:27017,meanstack-shard-00-01-jxtyb.mongodb.net:27017,meanstack-shard-00-02-jxtyb.mongodb.net:27017/mernAppDB?ssl=true&replicaSet=MeanStack-shard-0&authSource=admin&retryWrites=true&w=majority', options)
     .then( () => {
         app.listen(5000)
     } )
